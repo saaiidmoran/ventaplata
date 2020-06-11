@@ -2,12 +2,13 @@
 A personal api rest project written in Java and using Maven, SpringBoot, Spring Security, JPA,
 Hibernate and other Java tools that mainly serves to provide services that can be consumed by
 an angular client application to carry out the management of a personal sales business silver articles.
-Para que éste proyecto funcione al momento de correrlo, recomiendo que se utilice el IDE STS4, una base de datos llamada
-'ventaplata' debe estar creada en MySQL, en el archivo application.properties vienen los datos de la base de datos 
-(usuario, contraseña, etc.).
-Éste proyecto también funciona mediante la autenticación básica de SpringSecurity, es por eso que al
-momento de que se ejecuta crea un usuario por default llamado 'root' y con contraseña '12345' (Si ya existe, no se crea).
-Los servicios REST pueden consumirse desde el propio navegador o con la ayuda del programa
+
+In order for this project to work at run time, I recommend using the STS4 IDE, a database called
+'ventaplata' must be created in MySQL, the database data is specified in the application.properties file
+(username, password, etc.).
+This project also works through basic SpringSecurity authentication, that's why when
+when it is run it creates a default user named 'root' and a password '12345' (if it already exists, it is not created).
+REST services can be consumed from the browser itself or with the help of the program
 Postman.
-No está terminado, aun le falta bastante para que sea funcional, pero puede servir de ejemplo para el uso de SpringBoot
-y algunas herramientas de Java.
+It is not finished, it still lacks enough to be functional, but it can serve as an example for the use of SpringBoot
+and some Java tools.
